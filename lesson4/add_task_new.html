@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <title>add_task_new</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
-    <body>
-        <div class="list">
-            <h1>Заголовок первого уровня</h1>
-            <h3>Предварительно форматированный текст:</h3>
-            <pre>
+
+<body>
+    <div class="list">
+        <h1>Заголовок первого уровня</h1>
+        <h3>Предварительно форматированный текст:</h3>
+        <pre>
                 <code>
 <!--                --> x | o | 
 <!--                -->‐‐‐‐‐‐‐‐‐‐ 
@@ -20,95 +22,101 @@
 <!--                --> o | x | o
                 </code>
             </pre>
-            <hr>
-            <h3>Тег adress</h3>
-            <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.268691</address>
-            <hr>
-            <h3>Семантические и функциональные строчные тег</h3>
-            <p>
-                Пожелания автора:<br><del style="color:red">Данный текст убрать из монографии</del> и заменить его <ins style="color:blue">на вновь помещённый текст.</ins>
-            </p>
-            <hr>
-            <h3>Работа со строчными и блоковыми цитатами</h3>
-            <p>
-                Цитата короткая:<br>
-                <cite>И всё­таки она вертится!</cite>
-            </p>
-            <p>
-                Цитата занимающая несколько предложений:<br>
-                <blockquote>
-                        О сколько нам открытий чудных<br>
-                        Готовят просвещенья дух<br>
-                        И опыт, сын ошибок трудных,<br>
-                        И гений, парадоксов друг,<br>
-                        И случай, бог изобретатель...
-                </blockquote>
-            </p>
-            <hr>
-            <h3>Семантические и функциональные строчные теги</h3>
-            <p>
-                <strong>Тэг &#60;STRONG&#62; делает данный фрагмент текста более важным.</strong> <em>Тэг &#60;em&#62; менее важным.</em><br>
-                В то время как теги &#60;b&#62; и &#60;i&#62; делают текст просто <b>полужирным</b> и <i>курсивом</i> соответсвенно.
-            </p>
-            <hr>
-            <h3>Теги форматирования машинного языка</h3>
-            <p>
-                    При выполнении программного кода на языке PERL:
-                    <pre>
+        <hr>
+        <h3>Тег adress</h3>
+        <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.268691</address>
+        <hr>
+        <h3>Семантические и функциональные строчные тег</h3>
+        <p>
+            Пожелания автора:<br><del style="color:red">Данный текст убрать из монографии</del> и заменить его <ins
+                style="color:blue">на вновь помещённый текст.</ins>
+        </p>
+        <hr>
+        <h3>Работа со строчными и блоковыми цитатами</h3>
+        <p>
+            Цитата короткая:<br>
+            <cite>И всё­таки она вертится!</cite>
+        </p>
+        <p>
+            Цитата занимающая несколько предложений:<br>
+            <blockquote>
+                О сколько нам открытий чудных<br>
+                Готовят просвещенья дух<br>
+                И опыт, сын ошибок трудных,<br>
+                И гений, парадоксов друг,<br>
+                И случай, бог изобретатель...
+            </blockquote>
+        </p>
+        <hr>
+        <h3>Семантические и функциональные строчные теги</h3>
+        <p>
+            <strong>Тэг &#60;STRONG&#62; делает данный фрагмент текста более важным.</strong> <em>Тэг &#60;em&#62; менее
+                важным.</em><br>
+            В то время как теги &#60;b&#62; и &#60;i&#62; делают текст просто <b>полужирным</b> и <i>курсивом</i>
+            соответсвенно.
+        </p>
+        <hr>
+        <h3>Теги форматирования машинного языка</h3>
+        <p>
+            При выполнении программного кода на языке PERL:
+            <pre>
                         <code>
 <!--                -->#!/usr/local/bin/perl
 <!--                -->print "Content‐type: text/html\n\n";
 <!--                -->print "&#60;H1&#62;Hello World&#60;/H1&#62;\n";
                         </code>
                     </pre>
-            </p>
-            <p>
-                Программа выведет:
-                <pre>
+        </p>
+        <p>
+            Программа выведет:
+            <pre>
                         <code>
 <!--                -->Hello, World!
                         </code>
                     </pre>
-            </p>
-            <p>
-                    Однако в браузере у нас будет отображаться результат выполнения этой программы:<br>
-                    <h1>Hello, World!</h1>
-            </p>
-            <hr>
-            <h3>Комментарии и литералы(мнемоники) в HTML</h3>
-            <p style="font-family:monospace; margin-bottom:0px ">
-                &#60;!--это комментарий --&#62;<br>
-                <div style="margin-left:107px;font-family:monospace">
-                    &#60;!-- и это также комментарий,<br>
-                    занимающий более одной строки --&#62;
-                </div>
-            </p>
-            <hr>
-            <h3>Теги над­ и подстрочных символов</h3>
-            <h4 style="text-align:center">Магазин работает:</h4>
-            <p style="text-align:center;font-weight: 500">
-                с 08<sup style="text-decoration:underline">30</sup> до 18<sup style="text-decoration:underline">30</sup><br>
-                обед с 13<sup style="text-decoration:underline">00</sup> до 14<sup style="text-decoration:underline">00</sup><br>
-                выходной: <span style="text-decoration:underline">суббота</span>, <span style="text-decoration:underline">воскресенье</span>
-            </p>
-            <hr>
-            <h3>Вот такой текст</h3>
-            <p style="font-weight:bold; font-size:larger;letter-spacing: 7px; margin-bottom: 0px">
-                Эо рсо еёы ткт
-            </p>
-            <p style="font-weight:bold; font-size:larger;letter-spacing: 7px;text-indent: 10px; margin-top: -10px">
-                т пот вслй ес
-            </p>
-            <hr>
-            <h3>Акроним и курсив</h3>
-            <p>
-                ТФ:Y(<em>x</em>)=e<sup><em>-i&#960;x</em></sup>+log<sub>x</sub>4
-            </p>
-            <hr>
-            <h3>Тег small внтури абзаца</h3>
-            <p style="text-align:right">
-                <small>Создано при помощи блокнота&#169;</small>
-            </p>
-        </div>
-    </body>
+        </p>
+        <p>
+            Однако в браузере у нас будет отображаться результат выполнения этой программы:<br>
+            <h1>Hello, World!</h1>
+        </p>
+        <hr>
+        <h3>Комментарии и литералы(мнемоники) в HTML</h3>
+        <p style="font-family:monospace; margin-bottom:0px ">
+            &#60;!--это комментарий --&#62;<br>
+            <div style="margin-left:107px;font-family:monospace">
+                &#60;!-- и это также комментарий,<br>
+                занимающий более одной строки --&#62;
+            </div>
+        </p>
+        <hr>
+        <h3>Теги над­ и подстрочных символов</h3>
+        <h4 style="text-align:center">Магазин работает:</h4>
+        <p style="text-align:center;font-weight: 500">
+            с 08<sup style="text-decoration:underline">30</sup> до 18<sup style="text-decoration:underline">30</sup><br>
+            обед с 13<sup style="text-decoration:underline">00</sup> до 14<sup
+                style="text-decoration:underline">00</sup><br>
+            выходной: <span style="text-decoration:underline">суббота</span>, <span
+                style="text-decoration:underline">воскресенье</span>
+        </p>
+        <hr>
+        <h3>Вот такой текст</h3>
+        <p style="font-weight:bold; font-size:larger;letter-spacing: 7px; margin-bottom: 0px">
+            Эо рсо еёы ткт
+        </p>
+        <p style="font-weight:bold; font-size:larger;letter-spacing: 7px;text-indent: 10px; margin-top: -10px">
+            т пот вслй ес
+        </p>
+        <hr>
+        <h3>Акроним и курсив</h3>
+        <p>
+            ТФ:Y(<em>x</em>)=e<sup><em>-i&#960;x</em></sup>+log<sub>x</sub>4
+        </p>
+        <hr>
+        <h3>Тег small внтури абзаца</h3>
+        <p style="text-align:right">
+            <small>Создано при помощи блокнота&#169;</small>
+        </p>
+    </div>
+</body>
+
 </html>
