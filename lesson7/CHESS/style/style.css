@@ -1,0 +1,18 @@
+.name{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.bd{
+    color: green;
+}
+.world_champ{
+    color: red;
+    font-weight: bold;
+}
+.info{
+    color: blue;
+    font-style: italic;
+}
+a.out::before{
+    content: url('../extref.png')
+}
