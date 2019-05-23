@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        div.all {
+            width: 500px;
+            height: 100px;
+        }
+
+        div.star {
+            width: 100px;
+            height: 100px;
+            background: url('img/white.png') no-repeat;
+            float: right;
+        }
+
+        div.star:hover,
+        div.star:hover~div.star {
+            background: url('img/gold.png') no-repeat;
+        }
+    </style>
+    <title>STARS</title>
+</head>
+
+<body>
+    <div class="all">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+</body>
+
+</html>
