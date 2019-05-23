@@ -1,19 +1,23 @@
-.name{
+.name {
     font-size: 20pt;
     font-weight: bold;
 }
-.bd{
+
+.bd {
     color: green;
 }
-.world_champ{
+
+.world_champ {
     color: red;
     font-weight: bold;
 }
-.info{
+
+.info {
     color: blue;
     font-style: italic;
 }
-a.out{
+
+a.out {
     background: url('../extref.png') no-repeat 0 5px;
     padding-left: 15px;
 }
