@@ -1,0 +1,63 @@
+.main {
+    vertical-align: top;
+    background: coral
+}
+
+.head {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 5px;
+    color: bisque
+}
+
+.footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 5px;
+    color: bisque
+}
+
+.menu {
+    width: 150px;
+    vertical-align: top;
+    float: left;
+}
+
+.content {
+    margin-left: 150px;
+    padding: 20px;
+    background: url('img/ball.png') #fff top right repeat-y;
+}
+
+.pic {
+    float: left;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+@media all and  (max-width: 700px){
+    .menu {
+        float: none;
+        width: auto;
+        
+    }
+    .pic {
+       width: 70%;
+        float: none;
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+    .content {
+        width: auto;
+        margin: 0px;
+        padding: 20px;
+        background: url('img/ball.png') #fff bottom left repeat-x;
+    }
+    
+}
