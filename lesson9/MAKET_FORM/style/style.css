@@ -1,0 +1,98 @@
+.article-name-label{
+    float: left;
+}
+.category-label{
+    float: left;
+}
+.place-label{
+    float: left;
+}
+.comments-label{
+    float: left;
+}
+.radio1{
+    position: absolute;
+    margin-left: 170px;
+    float: left;
+}
+.radio2{
+    float: left;
+    position: absolute;
+    margin-left: 260px;
+}
+.radio3{
+    float: left;
+    position: absolute;
+    margin-left: 360px;
+}
+
+input[id="article-name"]{
+    position: absolute;
+    margin-left: 57px;
+    width: 60%;
+}
+select[id="category"]{
+    position: absolute;
+    margin-left: 113px;
+    width: 20%;
+}
+input[type="radio"]{
+    display: inline-block;
+}
+textarea[id="article"]
+{
+    width: 80%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 5px;
+  }
+
+@media all and (max-width: 865px){
+    .article-name-label{
+        float: none;
+    }
+    input[id="article-name"]{
+        position: absolute;
+        margin-left: 0px;
+        width: 60%;
+    }
+    .category-label{
+        float: none;
+    }
+    select[id="category"]{
+        position: absolute;
+        margin-left: 0px;
+        width: 61%;
+    }
+    .place-label{
+        float: none;
+    }
+    input[type="radio"]{
+        display:inline;
+    }
+    .radio1{
+        float: none;
+        position: static;
+        margin-left: 0px;
+    }
+    .radio2{
+        float: none;
+        position: static;
+        margin-left: 0px;
+    }
+    .radio3{
+        float: none;
+        position: static;
+        margin-left: 0px;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+        margin: 13px;
+      }
+}
