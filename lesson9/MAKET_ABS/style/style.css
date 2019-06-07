@@ -1,0 +1,43 @@
+.all {
+    text-align: center;
+    position: relative;
+}
+
+.article {
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.pic {
+    position: relative;
+    display: inline-block;
+}
+
+.biohazard {
+    position: absolute;
+    top: -50px;
+    left: -220px;
+}
+
+.Man-and-woman {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+.Yin_and_Yang {
+    position: absolute;
+    top: 155px;
+    left: -130px;
+}
+
+.No_smoking {
+    position: absolute;
+    top: 10px;
+    left: -150px;
+    z-index: 5;
+}
+
+img:hover {
+    z-index: 10;
+}
