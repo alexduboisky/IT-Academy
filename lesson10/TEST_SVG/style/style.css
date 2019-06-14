@@ -1,0 +1,21 @@
+#svg_2:hover{
+    fill: #020130;
+}
+
+#svg_2:hover ~ #svg_10{
+    fill: #020130;
+}
+
+#svg_2:hover ~ #svg_7{
+    fill: #ffff00;
+}
+#svg_2:hover ~ #svg_8{
+    fill: #ffff00;
+}
+#svg_2:hover ~ #svg_3{
+    fill: #040277;
+}
+
+#svg_2:hover ~ #svg_11{
+    fill: #fcf4de;
+}
