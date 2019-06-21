@@ -1,0 +1,94 @@
+.main {
+    display: flex;
+    vertical-align: top;
+}
+
+.head {
+    text-align: center;
+    background-color: #6494ed;
+    padding: 5px;
+    color: bisque
+}
+
+.footer {
+    text-align: center;
+    background-color: #6495ed;
+    padding: 5px;
+    color: bisque
+}
+
+.menu {
+    width:  200px;
+    vertical-align: top;
+    background: coral;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.content {
+    
+    padding: 20px;
+    background: url('img/ball.png') #fff top right repeat-y;
+}
+
+.pic {
+    float: left;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+.banner{
+    position: fixed;
+    text-align: center;
+    top: 20px;
+    right: 20px;
+    width: 65px;
+    background-color: coral;
+}
+
+@media all and (max-width:700px) {
+    .menu {
+        width: auto;
+    }
+
+    .pic {
+        width: 70%;
+        float: none;
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: auto;
+        margin: 0px;
+        padding: 20px;
+        background: url('img/ball.png') #cae0fa bottom left repeat-x;
+    }
+
+    .main {
+        vertical-align: top;
+        background: #89aae9;
+        margin-top: -20px;
+        flex-direction: column-reverse;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #6494ed;
+        padding: 5px;
+        color: bisque
+    }
+
+    .footer {
+        text-align: center;
+        background-color: #6495ed;
+        padding: 5px;
+        color: bisque
+    }
+
+}

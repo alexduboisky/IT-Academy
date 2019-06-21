@@ -1,0 +1,67 @@
+@keyframes anim1 {
+    from {
+        background-color: cyan;
+    }
+
+    to {
+        background-color: magenta;
+    }
+}
+
+@keyframes anim2 {
+    from {
+        font-size: 5px;
+    }
+
+    to {
+        font-size: 50px;
+    }
+}
+
+@keyframes anim3 {
+    from {
+        border: 1px solid royalblue;
+    }
+
+    50% {
+        border: 10px solid royalblue;
+    }
+
+    to {
+        border: 1px solid royalblue;
+    }
+}
+
+@keyframes anim4 {
+    from {
+        margin: 0px;
+    }
+
+    50% {
+        margin: 100px;
+    }
+
+    to {
+        margin: 0px;
+    }
+}
+
+.container .ca1 {
+    animation: anim1 5s infinite;
+    -webkit-animation: anim1 5s infinite;
+}
+
+.container:hover .ca2 {
+    animation: anim2 5s infinite;
+    -webkit-animation: anim2 5s infinite;
+}
+
+.container:hover .ca3 {
+    animation: anim3 5s infinite;
+    -webkit-animation: anim3 5s infinite;
+}
+
+.container:hover .ca4 {
+    animation: anim4 5s infinite;
+    -webkit-animation: anim4 5s infinite;
+}

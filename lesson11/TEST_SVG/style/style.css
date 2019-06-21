@@ -1,0 +1,45 @@
+#svg_2:hover{
+    fill: #020130;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+
+#svg_2:hover ~ #svg_10{
+    fill: #020130;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+
+#svg_2:hover ~ #svg_7{
+    fill: #ffff00;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+#svg_2:hover ~ #svg_8{
+    fill: #ffff00;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+#svg_2:hover ~ #svg_3{
+    fill: #040277;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+
+#svg_2:hover ~ #svg_11{
+    fill: #fcf4de;
+    transition-duration: 2s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
