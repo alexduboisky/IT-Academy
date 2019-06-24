@@ -1,31 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700&display=swap&subset=cyrillic');
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-ul,
-li {
-    display: block;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-}
-
 .menu {}
 
-.header {
+header {
     padding-top: 40px;
+    position: absolute;
+    width: 100%;
 }
 
 .menu__item a {
@@ -33,33 +13,58 @@ h6 {
     font-weight: 700;
     color: #000;
     font-size: 12px;
-    margin-left: 20px;
+    display: block;
+}
+header nav li{
+    margin-left: 30px;
+}
+.first_screen{
+    background-image: url('../img/site-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.company {
+    width: 555px;
+    margin: 255px auto 0;
 }
 
 .company__title {
-    width: 463px;
-    height: 35px;
+    border: 10px solid #60606e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.company__title h1 {
+    padding: 22px 0px;
     color: #60606e;
     font-family: Montserrat;
-    font-size: 46px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
     align-items: center;
     margin: 0;
-    
 }
 
-.company {
-    width: 555px;
-    height: 100px;
-    border: 10px solid #60606e;
-    margin: 255px auto;
-    display:flex;
-    align-items: center;
-    justify-content: center; 
+.company__description{
+    margin-top: 30px;
 }
+.company__description p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+ .history{
+    display: flex;
+ }
+ .history__content{
+     margin: 0 auto;
+ }
 
-.header-content{
-    margin: 0px;
-}
+
+.header-content {}
