@@ -23,6 +23,9 @@ header nav li{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.first_screen__wrapper{
+    width: 100%;
+}
 .company {
     width: 555px;
     margin: 255px auto 0;
@@ -61,10 +64,51 @@ header nav li{
 }
  .history{
     display: flex;
+    margin-top: 125px;
+    justify-content: flex-end;
+    position: relative;
  }
- .history__content{
-     margin: 0 auto;
+ .history__content h2{
+color: #60606e;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+ }
+ .history__content p{
+color: #60606e;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+ }
+ .content__button{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+ }
+ .history__content a{
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 15px 30px;
+background-color: #7beec7;
  }
 
 
-.header-content {}
+.history__content {
+    width: 540px;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 45px;
+    
+}
+.history__picture{
+    position: absolute;
+    left: 0;
+}
