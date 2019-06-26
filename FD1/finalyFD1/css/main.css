@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Open+Sans:400,800&display=swap&subset=cyrillic');
 
 
 header {
@@ -36,8 +36,14 @@ header nav li {
 
 .company__title {
     border: 10px solid #60606e;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
 }
@@ -50,6 +56,8 @@ header nav li {
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0;
 }
@@ -68,8 +76,12 @@ header nav li {
 }
 
 .history {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 125px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     position: relative;
 }
@@ -92,7 +104,11 @@ header nav li {
 }
 
 .content__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     margin-top: 25px;
     position: absolute;
@@ -128,14 +144,23 @@ header nav li {
 }
 
 .second_screen__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 720px;
     margin: 255px auto 0;
 }
 
 .second_screen__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 125px;
     position: relative;
@@ -167,7 +192,10 @@ header nav li {
 }
 
 .second_screen__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -305,7 +333,12 @@ header nav li {
 }
 
 .third_screen__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 720px;
     margin: 150px auto 0;
@@ -333,6 +366,8 @@ header nav li {
 
 .third_screen__bottom {
     margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -364,8 +399,13 @@ header nav li {
 }
 
 .portfolio_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -388,16 +428,22 @@ header nav li {
 .fashion {
     width: calc(100% / 3);
 }
-.fourth_screen{
+
+.fourth_screen {
     background-color: #7beec7;
     margin-top: 150px;
 }
+
 .fourth_screen__wrapper {
     width: 100%;
     background-color: #7beec7;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 50px 0;
     left: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 
 }
@@ -415,21 +461,25 @@ header nav li {
 .jobs_button {
     display: inline-block;
     background-color: #ffffff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    
-    padding: 20px 30px;
+    margin-top: 30px;;
+    padding: 0 20px;
 }
 
-.jobs_button a {
-    
+.jobs_button span {
+
+    display: block;
     color: #7beec7;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 50px;
+    line-height: 30px;
     text-transform: uppercase;
-    text-decoration: none;
-    
+  
+    background-color: #ffffff ;
+
 
 }
 
@@ -463,7 +513,7 @@ footer {
     padding: 30px;
     position: relative;
     width: 100%;
-    
+
 }
 
 .footer_menu a {
@@ -487,10 +537,392 @@ footer {
     text-transform: uppercase;
     text-align: right;
 }
-footer .col-lg-8, .col-lg-4, .col-lg-12{
+
+footer .col-lg-8,
+.col-lg-4,
+.col-lg-12 {
     padding: 0;
 }
+
 footer nav li {
     margin-right: 30px;
 }
 
+.first_screen__about {
+    background-image: url('../img/site-hero2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_screen__about__wrapper {
+    width: 100%;
+}
+
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 265px auto 160px;
+}
+
+.title_name h1 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.title_path p,
+a {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.title_path a:hover {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.second_screen__about__wrapper {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.about_us__left {
+    margin-right: 70px;
+}
+
+.about_us__left h2 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.about_us__left h3 {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.about_us__left p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.what_we_do__right h2 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.what_we_do__right h3 {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.what_we_do__right p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.third_screen__about__wrapper {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.benefits_top {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.benefits_top__title h2 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.benefits_top__description p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.benefits_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.fully_responsive {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+
+}
+
+.fully_responsive .fr_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.unlimited_option .uo_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wordpress .wp_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.e_commerce .ec_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.support .sp_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.customizable_design .cd_block1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.unlimited_option {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.wordpress {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.e_commerce {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.support {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.customizable_design {
+    width: calc(100% / 3);
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.benefits_bottom p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.benefits_bottom span {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.benefits_bottom ion-icon {
+    color: #fff;
+    font-family: Ionicons;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    background-color: #7beec7;
+    padding: 5px;
+}
+
+.fourth_screen__about__wrapper {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+.dream_team {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dream_team__top {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dream_team__top__title h2 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.dream_team__top__description p {
+    color: #60606e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dream_team__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.dream_team__bottom .specialist1 {
+    width: calc(100%/4);
+    margin-bottom: 25px;
+}
+
+.dream_team__dscr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+ background-color: #eeeeee;
+ box-sizing: border-box;
+ padding: 0 30px;
+}
+.dscr_content p{
+color: #60606e;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: italic;
+line-height: 48px;
+}
+.dscr_bttn a{
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 48px;
+text-transform: uppercase;
+background-color: #7beec7;
+padding: 15px 25px;
+}
+.fifth_screen__about__wrapper {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: space-between;
+}
+.person_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 30px;
+}
+.person_info__dscr p{
+color: #60606e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+.person_info__name span{
+    display: block;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+padding: 5px 10px;
+background-color: #7beec7;
+}
+.person_project{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.person_project .project {
+    width: calc(100%/3);
+    margin-bottom: 25px;
+}
+.person_info__photo{
+    padding-bottom: 30px;
+}
+.person_info__dscr{
+    padding-bottom: 30px;
+}
