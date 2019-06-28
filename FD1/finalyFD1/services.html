@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-1/dist/ionicons/ionicons.esm.js"></script>
@@ -19,45 +20,45 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="logo_menu">
+                <div class="logo_menu wow fadeInUp" data-wow-delay="0.8s">
                     <div class="main_logo">
-                        <img src="img/akad.png" alt="AKAD. - Creative Agency">
+                        <a href="index.html"><img src="img/akad.png" alt="AKAD. - Creative Agency"></a>
                     </div>
                     <nav>
                         <ul class="menu justify-content-end d-flex ">
-                            <li class="menu__item"><a href="#">HOME</a></li>
-                            <li class="menu__item"><a href="#">ABOUT US</a></li>
-                            <li class="menu__item"><a href="#">SERVICES</a></li>
-                            <li class="menu__item"><a href="#">CONTACT US</a></li>
+                            <li class="menu__item"><a href="index.html">HOME</a></li>
+                            <li class="menu__item"><a href="about.html">ABOUT US</a></li>
+                            <li class="menu__item"><a href="services.html">SERVICES</a></li>
+                            <li class="menu__item"><a href="contacts.html">CONTACT US</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <div class="first_screen__services">
+    <div class="first_screen__services wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="first_screen__services__wrapper">
                     <div class="title">
                         <div class="title_name">
-                            <h1>contact us</h1>
+                            <h1>our services</h1>
                         </div>
                         <div class="title_path">
-                            <p><a href="index.html">home</a> / <a href="#">contact us</a></p>
+                            <p><a href="index.html">home</a> / <a href="#">services</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="second_screen__services">
+    <div class="second_screen__services wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="second_screen__services__wrapper">
                     <div class="what_we_do__top">
                         <div class="what_we_do_top__title">
-                            <h2>some benefits</h2>
+                            <h2>what we do</h2>
                         </div>
                         <div class="what_we_do_top__description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -65,7 +66,7 @@
                         </div>
                     </div>
                     <div class="what_we_do__bottom">
-                        <div class="what_we_do__bottom__description">
+                        <div class="what_we_do__bottom__description wow fadeInLeft" data-wow-delay="1s">
                             <div class="wwd_dscr">
                                 <p>Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
                                     suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
@@ -73,27 +74,51 @@
                                     feugiat nulla facilisis at vero eros et accumsan.</p>
                             </div>
                             <div class="wwd_list">
-                                <div class="wwd_list_1">
+                                <div class="wwd_list_1 wow fadeIn" data-wow-delay="1.6s">
                                     <ul>
-                                        <li><ion-icon name="ios-checkbox"></ion-icon><span>Stunning on all screens</span></li>
-                                        <li><ion-icon name="ios-checkbox"></ion-icon><span>Easy to customize</span></li>
-                                        <li><ion-icon name="ios-checkbox"></ion-icon><span>Make a difference</span></li>
-                                        <li><ion-icon name="ios-checkbox"></ion-icon><span>Imagine and create</span></li>
-                                        <li><ion-icon name="ios-checkbox"></ion-icon><span>Unlimited possibilities</span></li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Stunning on all
+                                                screens</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Easy to customize</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Make a difference</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Imagine and create</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Unlimited
+                                                possibilities</span>
+                                        </li>
                                     </ul>
                                 </div>
-                                <div class="wwd_list_2">
-                                        <ul>
-                                                <li><ion-icon name="ios-checkbox"></ion-icon><span>Remarkable style</span></li>
-                                                <li><ion-icon name="ios-checkbox"></ion-icon><span>Captivating presentations</span></li>
-                                                <li><ion-icon name="ios-checkbox"></ion-icon><span>Make your portfolio pop</span></li>
-                                                <li><ion-icon name="ios-checkbox"></ion-icon><span>Words that matter</span></li>
-                                                <li><ion-icon name="ios-checkbox"></ion-icon><span>Satisfied clients</span></li>
-                                            </ul>
+                                <div class="wwd_list_2 wow fadeIn" data-wow-delay="1.9s">
+                                    <ul>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Remarkable style</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Captivating
+                                                presentations</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Make your portfolio
+                                                pop</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Words that matter</span>
+                                        </li>
+                                        <li>
+                                            <ion-icon name="ios-checkbox"></ion-icon><span>Satisfied clients</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="what_we_do__bottom__pic">
+                        <div class="what_we_do__bottom__pic wow fadeInRight" data-wow-delay="1s">
                             <img src="img/what_we_do.png" alt="">
                         </div>
                     </div>
@@ -101,55 +126,178 @@
             </div>
         </div>
     </div>
-    <div class="third_screen__services">
+    <div class="third_screen__services wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="third_screen__services__wrapper">
                     <div class="services_info__blocks">
-                        <div class="services_info__block1">
-                            <div class="block1__icon"><ion-icon name="ios-pulse"></ion-icon></div>
-                            <div class="block1__name"><h3>KEEP PULSE GOING</h3></div>
-                            <div class="block1__dscr"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .</p></div>
+                        <div class="services_info__block1 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="block1__icon">
+                                <ion-icon name="ios-pulse"></ion-icon>
+                            </div>
+                            <div class="block1__name">
+                                <h3>KEEP PULSE GOING</h3>
+                            </div>
+                            <div class="block1__dscr">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt .</p>
+                            </div>
                         </div>
-                        <div class="services_info__block2">
-                                <div class="block2__icon"><ion-icon name="ios-infinite"></ion-icon></div>
-                                <div class="block2__name"><h3>PASS THE LIMITS</h3></div>
-                                <div class="block2__dscr"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .</p></div>
+                        <div class="services_info__block2 wow fadeIn" data-wow-delay="1s">
+                            <div class="block2__icon">
+                                <ion-icon name="ios-infinite"></ion-icon>
+                            </div>
+                            <div class="block2__name">
+                                <h3>PASS THE LIMITS</h3>
+                            </div>
+                            <div class="block2__dscr">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt .</p>
+                            </div>
                         </div>
-                        <div class="services_info__block3">
-                                <div class="block3__icon"><ion-icon name="ios-bulb"></ion-icon></div>
-                                <div class="block3__name"><h3>GREAT IDEAS</h3></div>
-                                <div class="block3__dscr"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .</p></div>
+                        <div class="services_info__block3 wow fadeIn" data-wow-delay="1.5s">
+                            <div class="block3__icon">
+                                <ion-icon name="ios-bulb"></ion-icon>
+                            </div>
+                            <div class="block3__name">
+                                <h3>GREAT IDEAS</h3>
+                            </div>
+                            <div class="block3__dscr">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt .</p>
+                            </div>
                         </div>
-                        <div class="services_info__block4">
-                                <div class="block4__icon"><ion-icon name="ios-options"></ion-icon></div>
-                                <div class="block4__name"><h3>GREAT IDEAS</h3></div>
-                                <div class="block4__dscr"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .</p></div>
+                        <div class="services_info__block4 wow fadeIn" data-wow-delay="2s">
+                            <div class="block4__icon">
+                                <ion-icon name="ios-options"></ion-icon>
+                            </div>
+                            <div class="block4__name">
+                                <h3>GREAT IDEAS</h3>
+                            </div>
+                            <div class="block4__dscr">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt .</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fourth_screen__services">
+    <div class="fourth_screen__services wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="fourth_screen__services__wrapper">
                     <div class="pricing_top">
-                            <div class="pricing_top__title">
-                                    <h2>pricing plans</h2>
-                                </div>
-                                <div class="pricing_top__description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
+                        <div class="pricing_top__title">
+                            <h2>pricing plans</h2>
+                        </div>
+                        <div class="pricing_top__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
                     </div>
-                    <div class="pricing_bottom"></div>
+                    <div class="pricing_bottom">
+                        <div class="basic wow fadeIn" data-wow-delay="0.5s">
+                            <div class="basic_name">
+                                <h2>BASIC </h2>
+                            </div>
+                            <div class="basic_price"><span>$35.99 Monthly</span></div>
+                            <div class="basic_list">
+                                <ul>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Lorem ipsum dolor sit amet</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Consectetuer adipiscing
+                                            elit</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Sed diam nonummy</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Nibh euismod tincidunt</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Ut laoreet dolore</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Magna aliquam erat
+                                            volutpat</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="basic_button"><a href="">get started</a></div>
+                        </div>
+                        <div class="advanced wow fadeIn" data-wow-delay="1s">
+                            <div class="advanced_name">
+                                <h2>advanced</h2>
+                            </div>
+                            <div class="advanced_price"><span>$55.99 Monthly</span></div>
+                            <div class="advanced_list">
+                                <ul>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Lorem ispansum dolor sit
+                                            amet</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Consectetuer adispaniscing
+                                            elit</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Sed diam nonummy</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Nibh euismod tincidunt</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Ut laoreet dolore</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Magna aliquam erat
+                                            volutspanat</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="advanced_button"><a href="">get started</a></div>
+                        </div>
+                        <div class="smart wow fadeIn" data-wow-delay="1.5s">
+                            <div class="smart_name">
+                                <h2>smart</h2>
+                            </div>
+                            <div class="smart_price"><span>$75.99 Monthly</span></div>
+                            <div class="smart_list">
+                                <ul>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Lorem ipsum dolor sit amet</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Consectetuer adipiscing
+                                            elit</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Sed diam nonummy</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Nibh euismod tincidunt</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Ut laoreet dolore</span>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="ios-checkbox"></ion-icon><span>Magna aliquam erat
+                                            volutpat</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="smart_button"><a href="">get started</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fourth_screen">
+    <div class="fourth_screen wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="fourth_screen__wrapper">
@@ -176,14 +324,14 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="menu_info">
+                <div class="menu_info  wow fadeInUp">
                     <div class="footer_menu">
                         <nav>
                             <ul class="ul">
-                                <li class="menu__item"><a href="#">HOME</a></li>
-                                <li class="menu__item"><a href="#">ABOUT US</a></li>
-                                <li class="menu__item"><a href="#">SERVICES</a></li>
-                                <li class="menu__item"><a href="#">CONTACT US</a></li>
+                                <li class="menu__item"><a href="index.html">HOME</a></li>
+                                <li class="menu__item"><a href="about.html">ABOUT US</a></li>
+                                <li class="menu__item"><a href="services.html">SERVICES</a></li>
+                                <li class="menu__item"><a href="contacts.html">CONTACT US</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -206,4 +354,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
